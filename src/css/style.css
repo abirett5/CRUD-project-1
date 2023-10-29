@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2023 codewithsadee
+ * copyright 2023 A.H. Abir
  */
 
 
@@ -14,7 +14,79 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
+:root {
+  /**
+  * COLORS
+  */
+  --black: #000000;
 
+  /**
+  * Light Theme
+  */
+  --background-light: #FFFBFF;
+--on-background-light: #201A18;
+--surface-light: #FFF8F6;
+--surface-container-low-light: #FEF1EC;
+--surface-container-highest-light: #EDE0DB;
+--on-surface-light: #201A18;
+--on-surface-variant-light: #52443D;
+--primary-light: #9D4300;
+--on-primary-light: #FFFFFF;
+--primary-container-light: #FFDBCA;
+--on-primary-container-light: #341100;
+--secondary-container-light: #FFDBCA;
+--on-secondary-container-light: #2B160A;
+--outline-light: #85736B;
+--outline-variant-light: #D7C2B9;
+--inverse-surface-light: #362F2C;
+--inverse-on-surface-light: #FBEEE9;
+
+  /**
+  * Dark Theme
+  */
+  --background-dark: #201A18;
+--on-background-dark: #EDE0DB;
+--surface-dark: #181210;
+--surface-container-low-dark: #201A18;
+--surface-container-highest-dark: #3A3330;
+--on-surface-dark: #D0C4BF;
+--on-surface-variant-dark: #D7C2B9;
+--primary-dark: #FFB690;
+--on-primary-dark: #552100;
+--primary-container-dark: #783200;
+--on-primary-container-dark: #FFDBCA;
+--secondary-container-dark: #5C4032;
+--on-secondary-container-dark: #FFDBCA;
+--outline-dark: #A08D84;
+--outline-variant-dark: #52443D;
+--inverse-surface-dark: #EDE0DB;
+--inverse-on-surface-dark: #201A18;
+
+/**
+  * Typography
+  */
+
+  /* Font Family */
+  --font-primary: 'Kumbh Sans', sans-serif;
+
+  /* Font size */
+  --fs-base: 62.5%;
+--fs-display-large: 5.7rem;
+--fs-display-medium: 4.5rem;
+--fs-display-small: 3.6rem;
+--fs-headline-large: 3.2rem;
+--fs-headline-medium: 2.8rem;
+--fs-headline-small: 2.4rem;
+--fs-title-large: 2.2rem;
+--fs-title-medium: 1.6rem;
+--fs-title-small: 1.4rem;
+--fs-body-large: 1.6rem;
+--fs-body-medium: 1.4rem;
+--fs-body-small: 1.2rem;
+--fs-label-large: 1.4rem;
+--fs-label-medium: 1.2rem;
+--fs-label-small: 1.1rem;
+}
 
 
 
